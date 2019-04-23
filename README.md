@@ -1,7 +1,7 @@
 # Eindopdracht UX
 
-- Voornaam:
-- Familienaam:
+- Voornaam: Lode
+- Familienaam: Tobback
 - Studentnummer: 
-- Klasgroep: 
+- Klasgroep: MMPa
 - UX prototype link: 
