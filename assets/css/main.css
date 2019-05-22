@@ -7,3 +7,170 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+   
+  .logo_hor {
+    float: left;
+
+  }
+
+  .intro {
+      width: 50%;
+      float: left;
+      background-color: white;
+  }
+
+  .intro img {
+    height: 700px;
+    display : block;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: -150px;
+  }
+
+  .intro p{
+    font-family: 'Arial';
+    font-size: 20px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+  .boek {
+    width: 50%;
+    float: left;
+    height: 150%;
+    background: url('../../assets/img/punten.png');
+  }
+
+  .vak {
+      background-color: white;
+      width: 650px;
+      height: 650px;
+      margin: auto;
+      display: block;
+      margin-top: 120px;
+      padding-left: 30px;
+  }
+
+  .vak h1 {
+    font-family: 'HVD Comic Serif Pro';
+    font-size: 40px;
+    color: black;
+    width: 80%;
+    padding-top: 80px;
+  }
+
+  .vak I {
+      font-size: 20px;
+      color: #707070;
+      text-decoration: none;
+      font-style: normal;
+  }
+  
+    .button {
+    background-color: #AC4E3E;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+   margin-left: 30px;
+    cursor: pointer;
+    font-family: 'Abadi MT Condensed Extra Bold';
+  }
+
+  .banner img{
+    height: 550px;
+    width: 100%;
+}
+
+.socialmedia h2 {
+    font-family: 'Abadi MT Condensed Extra Bold';
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.socialmedia i {
+    text-align: center;
+    margin: auto;
+    font-size: 127px;
+    color: #808080;
+}
+
+.socialmedia{
+    padding-bottom: 70px;
+}
+  .nav ul {
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: -1px 7px 12px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 12px -9px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 12px -9px rgba(0,0,0,0.75);
+  }
+
+  .nav li {
+    font-family: 'Abadi MT Condensed Light';
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707070;
+    display: block;
+  }
+   
+  .footer{
+    margin: auto;
+    width: 34%;
+  }
+  .footer img{
+      width: 100px;
+      float: left;
+  }
+
+  hr {
+    margin-bottom: 0px;
+  }
+
+  .footer p {
+      float: left;
+      font-family: 'Helvetica';
+      font-weight: 100;
+      font-size: 20px;
+      padding-top: 15px;
+      color: #707070;
+  }
+  @media screen and (min-width: 600px) {
+    .nav li {
+      margin-left: 20px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+    }
+   
+    /* Option 1 - Display Inline */
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+
+  }
