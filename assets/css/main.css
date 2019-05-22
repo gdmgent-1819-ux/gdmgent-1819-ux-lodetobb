@@ -42,6 +42,38 @@ body {
     text-align: justify;
 }
 
+.intro i{
+    font-size: 80px;
+}
+
+.boven{
+    text-align: center;
+    display : block;
+    padding-top: 10%;
+    margin: auto;
+    margin-bottom: -150px;
+}
+
+.boven p{
+    text-align: center;
+    display : block;
+    margin: auto;
+}
+
+.onder{
+    text-align: center;
+    display : block;
+    padding-top: 30%;
+    margin: auto;
+    margin-bottom: -150px;
+}
+
+.onder p{
+    text-align: center;
+    display : block;
+    margin: auto;
+}
+
   .boek {
     width: 50%;
     float: left;
