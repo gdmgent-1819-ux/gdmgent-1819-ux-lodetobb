@@ -15,3 +15,70 @@
     margin: 2rem 0 .5rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
+
+
+
+#kleuren {
+	white-space: nowrap;
+	font-size: 1em;
+	letter-spacing: 2.5em;
+	line-height: .6em;
+	overflow: hidden;
+	width: 500px;
+	margin: 0 0 10px 0;
+}
+
+.kleur {
+    color: white;
+    padding-left: 10px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	letter-spacing: normal;
+	font-size: normal;
+	white-space: normal;
+	text-align: normal;
+	vertical-align: middle;
+}
+
+
+.button {
+    background-color: #AC4E3E;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+   margin-left: 30px;
+    cursor: pointer;
+    font-family: 'Abadi MT Condensed Extra Bold';
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #AC4E3E;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+   margin-left: 30px;
+    cursor: pointer;
+    float: right;
+    font-family: 'Abadi MT Condensed Extra Bold';
+  }
+  
